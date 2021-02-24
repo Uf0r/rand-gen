@@ -22,8 +22,8 @@ for (i=0 ;i<300 ; i++){
     block_n.style.height = y_cr+ 'px';
     block_n.style.backgroundColor = color[parseInt(Oq)];
     block_n.style.position = 'absolute';
-    block_n.style.left = x_cor +'px';
-    block_n.style.top = y_cor+ 'px';
+    block_n.style.left = x_cor * 10 +'px';
+    block_n.style.top = y_cor * 10+ 'px';
     block_n.innerHTML = list[parseInt(assa)];
     
    

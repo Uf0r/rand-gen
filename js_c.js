@@ -14,8 +14,8 @@ for (i=0 ;i<300 ; i++){
 
     const Oq = Math.random()*color.length;
     const assa = Math.random()*list.length;
-    const x_cr = Math.random()*100;
-    const y_cr = Math.random()*100;
+    const x_cr = Math.random()*1500;
+    const y_cr = Math.random()*1050;
     const x_cor = Math.random()*2300;
     const y_cor = Math.random()*1000;
     block_n.style.width = x_cr +'px';
